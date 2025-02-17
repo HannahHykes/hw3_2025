@@ -129,7 +129,15 @@ first div in the grid  and place it in the grid. */
 
      margin: 0 auto;
      align-self: center;
+
+     overflow: auto;
 }
+
+/* Ensure text-block gets an outline when focused for accessibility */
+.text-block:focus {
+     outline: 2px solid #000;
+ }
+ 
 
 /* Add your media query here */
 @media (min-width: 800px) {
